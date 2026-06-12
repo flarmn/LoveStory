@@ -1,0 +1,47 @@
+# WordPress
+wp-config.php
+
+# Environment
+.env
+.env.*
+*.env
+
+# Uploads
+uploads/
+wp-content/uploads/
+
+# Cache
+cache/
+wp-content/cache/
+
+# Logs
+logs/
+*.log
+
+# Database dumps
+*.sql
+*.gz
+*.zip
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/
+
+# Temporary
+tmp/
+temp/
+
+# Local configs
+local-config.php
+config.local.php

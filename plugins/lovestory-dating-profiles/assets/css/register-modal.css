@@ -1,0 +1,100 @@
+.dating-register-button {
+    cursor: pointer;
+      flex-shrink: 0;
+  border: 1px solid rgba(246, 185, 78, 0.75);
+  border-radius: 999px;
+  padding: 12px 20px;
+   background: var(--color-gold);
+  color: var(--color-violet);
+  
+  font-weight: 700;
+  font-size:15px;
+  transition: background var(--transition), color var(--transition);
+}
+
+.dating-register-button:hover,
+.dating-register-button:focus-visible {
+  background: #e9e9ed;
+  color: #eb7134;
+  xxcolor: #bd2ebf;
+ /* text-shadow: 1px 1px 0 #969696, 1px 1px 1px #aba8a8; */
+}
+
+
+.dating-modal[hidden] {
+    display: none;
+}
+
+.dating-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    color:black;
+}
+
+.dating-modal__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 10, 35, 0.72);
+    z-index: 1000;
+}
+
+.dating-modal__content {
+    position: relative;
+    z-index: 1;
+    width: min(92vw, 460px);
+    margin: 8vh auto;
+    padding: 32px;
+    border-radius: 24px;
+    background: #fff;
+    z-index: 9999;
+}
+
+.dating-modal__close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    border: 0;
+    background: transparent;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.dating-modal__title {
+    margin: 0 0 24px;
+    
+}
+
+.dating-register-form {
+    display: grid;
+    gap: 16px;
+}
+
+.dating-register-form__field {
+    display: grid;
+    gap: 6px;
+}
+
+.dating-register-form__field input,
+.dating-register-form__field select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.dating-register-form__submit {
+    min-height: 48px;
+    border: 0;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+body.is-register-modal-open {
+    overflow: hidden;
+}
+
+
+
+
