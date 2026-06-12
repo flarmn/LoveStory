@@ -1,5 +1,7 @@
 LoveStory
 
+![Main Page](screenshots/lovestory_screenshot.png)
+
 WordPress-based dating platform featuring custom user profiles, advanced search, private messaging and moderation tools.
 
 Overview
